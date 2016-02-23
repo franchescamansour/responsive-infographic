@@ -19,3 +19,21 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+.burp{
+  border: 3px dashed white;
+  margin: -2px;
+}
+
+.calories{
+  border: 2px dashed white;
+  margin: -2px;
+}
+
+.purefat{
+  border: 2px dashed white;
+}
+
+.bestdrinks{
+  border: 2px dashed white;
+}
