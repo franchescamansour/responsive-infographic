@@ -21,13 +21,11 @@ html {
 }
 
 .burp{
-  border: 3px dashed white;
-  margin: -2px;
+  border: 2px dashed white;
 }
 
 .calories{
   border: 2px dashed white;
-  margin: -2px;
 }
 
 .purefat{
