@@ -35,3 +35,60 @@ html {
 .bestdrinks {
   border: 2px dashed white;
 }
+
+.alcohol {
+  transform-origin: center center;
+  transition: all 250ms linear;
+}
+
+//*BANNER*/
+
+.alcohol:hover {
+  transform: scale(1.1);
+}
+
+.and {
+  transform: rotate(0);
+  transform-origin: 503px 61px;
+  transition: all .5s linear;
+}
+
+.and:hover {
+  transform: rotate(360deg);
+}
+
+.weightgain {
+  transform-origin: center center;
+  transition: all 250ms linear;
+}
+
+.weightgain:hover {
+  transform: scale(1.1);
+}
+
+/*BURP BUBBLE*/
+
+.bubbleburp {
+  opacity: 0;
+  transition: all 1s ease-in;
+}
+
+.js-bubble-animate {
+  opacity: 1;
+  animation: bubbleburp-jiggle 1s linear;
+}
+
+@keyframes bubbleburp-jiggle {
+  0% {
+    transform: rotate(0);
+  }
+  33% {
+    transform: rotate(15deg);
+  }
+  66% {
+    transform: rotate(-15deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
